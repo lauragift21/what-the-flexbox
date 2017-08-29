@@ -50,9 +50,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 /*Align items on the other hand uses the cross axis from left to right. and it has elements like baseline,center.flex-start also uses flex-direction column to change the axis.*/
 /*align content works same way with justify content excepts it uses cross axis*/
 /*align-self works the same way every other method works except it only applies to one element*/
+/*
 .container{
 	display: flex;
-	border: 10px solid mistyrose;
 	height: 100vh;
 	flex-wrap: wrap;	
 	align-content: center;
@@ -60,4 +60,21 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 .box{
 	width: 33%;
+}*/
+
+
+.container {
+	display: flex;
+}
+
+.box{
+	flex:1;
+}
+
+.box2{
+	flex: 1;
+}
+
+.box5{
+	flex:3;
 }
