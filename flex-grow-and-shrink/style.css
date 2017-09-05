@@ -29,6 +29,8 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* We start writing out flexbox here. The above is just page setup */
+/*flex basics determines the actual lenght and width of the contaner*/
+/*flex grow and flex shrink does same thing as flex*/
 .container {
   display:flex;
 }
@@ -40,5 +42,6 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 .box2 {
   flex:1 1 400px;
 }
+
 
 

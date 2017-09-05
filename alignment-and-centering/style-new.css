@@ -29,7 +29,52 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 
 /* We start writing out flexbox here. The above is just page setup */
+
+
+/* Flex box ordering is used for arranging or setting elements in order with ease using the order element*/
+
+
+/*.box{
+	flex: 1;
+}
+
+.box3{
+	order: 1;
+}
+
+.box5{
+	order: 4;
+}*/
+
+/*Justify content for flexbox is used to order content either using space between, space around or center and it uses the main axis from left to right if ypu want to change this you use the flex-direction property: column to make that change.*/
+/*Align items on the other hand uses the cross axis from left to right. and it has elements like baseline,center.flex-start also uses flex-direction column to change the axis.*/
+/*align content works same way with justify content excepts it uses cross axis*/
+/*align-self works the same way every other method works except it only applies to one element*/
+/*
 .container{
 	display: flex;
 	height: 100vh;
+	flex-wrap: wrap;	
+	align-content: center;
+}
+
+.box{
+	width: 33%;
+}*/
+
+
+.container {
+	display: flex;
+}
+
+.box{
+	flex:1;
+}
+
+.box2{
+	flex: 1;
+}
+
+.box5{
+	flex:3;
 }
