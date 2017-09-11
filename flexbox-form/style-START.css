@@ -63,3 +63,17 @@ a {
 }
 
 /*Flexbox Starts Here*/
+.cover  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex-form {
+    display: flex;
+    border: 20px solid rgba(0,0,0,0.3);
+}   
+
+input[type="search"] {
+    flex-basis: 200px;
+}
